@@ -14,7 +14,7 @@ public class Main {
         MealOrder secondOrder = new MealOrder("Swiss Burger", "Onion Rings",
                 "Mountain Dew");
         secondOrder.addBurgerToppings("lettuce","Mayo","AVOCADO");
-        secondOrder.setDrinkSize("Medium");
+        secondOrder.setDrinkSize("Large");
         secondOrder.printItemizedList();
 
 

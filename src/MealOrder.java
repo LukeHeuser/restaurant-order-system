@@ -10,8 +10,8 @@ public class MealOrder {
 
     public MealOrder(String burgerType, String sideType, String drinkType) {
         this.burger = new Burger(burgerType, 3.50d);
-        this.side = new Item(sideType, "SIDE", 1.50d);
-        this.drink = new Item(drinkType, "DRINK", 1.00d);
+        this.side = new Item("side",sideType, 1.50d);
+        this.drink = new Item("DRINK", drinkType, 1.00d);
     }
 
     public double getTotalPrice() {
