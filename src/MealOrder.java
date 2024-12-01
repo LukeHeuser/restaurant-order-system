@@ -54,7 +54,7 @@ public class MealOrder {
             side.printItem();
             drink.printItem();
         }
-        System.out.println("-".repeat(25));
+        System.out.println("-".repeat(30));
         Item.printItem("TOTAL PRICE",getTotalPrice());
     }
 

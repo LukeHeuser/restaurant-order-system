@@ -26,6 +26,13 @@ public class Main {
         thirdOrder.setDrinkSize("Medium");
         thirdOrder.printItemizedList();
 
+
+        MealOrder jennsOrder = new MealOrder("Double Cheese Burger", "Fries", "Coke");
+        jennsOrder.addBurgerToppings("Lettuce", "Mayo", "Tomato");
+        jennsOrder.setDrinkSize("Large");
+        jennsOrder.printItemizedList();
+
+
     }
 
 }
